@@ -32,11 +32,11 @@ The webs page design is 100% up to you , and you are welcome to add whatever use
 
 
 #2. Richest in the world
-Richest in the world is one PC game I played when I was a student. It's chinese name is called "富甲天下", it's quite similiar with the game "大富翁". In this game , there are three kings mr.Liu, mr.Cao and mr.Sun which refers to the very famous book "Three Kindoms".Players can pick up one of them as the role to play.
+Richest in the world is one PC game I played when I was a student. It's chinese name is called "富甲天下", it's quite similar with the game "大富翁". In this game , there are three kings mr.Liu, mr.Cao and mr.Sun which refers to the very famous book "Three Kindoms".Players can pick up one of them as the role to play.
 ##Requirements guideline
 1. This is a command line game
 2. Player's first step is to choose a role to play, here players have three options : mr.Liu, mr.Cao and mr.Sun
-3. Each king have 5 generals , and each generals have two attributes : attack and intelligence.
+3. Each king have 5 initial generals, and each general have one attribute : attack (the most important parameter during the battle).
 4. The map should be something like this:
 ![image](./new_map.png)
 
@@ -46,15 +46,15 @@ The meaning of each letter as below:
 2. $ is bonus, when player arrived bonus, got random bonus from 200~2000 (up to you)
 3. 0 is city, when player arrived blank city, system should ask the player whether he wants to occupy the blank city. If player replied yes(Y), he need to assign at least one general as the commander of the city.
 4. Once one city is occupied by one player, the 0 changed to the player role's name like L for Mr.Liu and C for Mr.Cao
-5. When player arrived some other player's city, he need to pay the pass fee or he chose to fight againest the general in the city, if he win he don't need to pay anything, otherwise, pay double pass fee.
+5. When player arrived some other player's city, he need to pay the pass fee or he chose to fight against the general in the city, if he win he don't need to pay anything, otherwise, pay double pass fee. Usually the general with higher attack will win in the fighting (but not every time).
 6. When player arrived his own city, he could use some money to upgrade the city, then the city's pass fee will grow to double.
 5. G is casino, once player arrived here, he got one chance to gamble, first system question should be "how much money you want to gamble ?" and player put some money to gamble. Second system output is to let player known if the gamble is win or lose. For loss case, player got nothing back, if player win the gamble, got 2 times bonus.
 6. H is hotel, once customer arrived here, system should invite 3 generals to player, and ask if they want to buy one of them.
-7. A is arsenal, player who arrived here got one chance to buy one weapon out of 5 options, and the weapon could be assigned to one specific general to promt his/her attack. Each general is only allowed to have one weapon in hand at one time.
-8. T is supermarket, customer could buy some props here. There are 3 kinds of props: TP (player can use TP to transfer to any position in the map), Barricade(disable other playes from pass the barricade, instead they start move backwards after meet the barricade) and Hypnosis (to disable one other play from doing any action)
+7. A is arsenal, player who arrived here got one chance to buy one weapon out of 5 options, and the weapon could be assigned to one specific general to upgrade his/her attack. Each general is only allowed to have one weapon in hand at one time.
+8. T is supermarket, customer could buy some props here. There are 3 kinds of props: TP (player can use TP to transfer to any position in the map), Barricade(disable other player from pass the barricade, instead they start move backwards after meet the barricade) and Hypnosis (to disable one other play from doing any action)
 9. o is normal area, nothing happens if player arrived (or you can add something , up to you)
 10. once one general is assigned to some city, which means he is not along with the king, and then he can not be able to fight for the king directly when the king arrived some other king's area and are asking for the pass fee.
-11. once one player dont have enough money to pay the pass fee, and lose the fight, one of his general (in some city or along with him) will leave. If he have no more generals in hand, the player game over.
+11. once one player don't have enough money to pay the pass fee, and lose the fight, one of his general (in some city or along with him) will leave. If he have no more generals in hand, the player game over.
 
 Evert round, player can chose :
 
@@ -63,10 +63,3 @@ Evert round, player can chose :
 3. QUERY: query current player's info (cities, generals, money, props ..)
 4. QUERY ALL: query all player's info
 5. QUIT: quick the game.
-
-
-
-
-
-
-
