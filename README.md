@@ -1,5 +1,5 @@
 #This is your lovely homework
-Basically , we planned two versions homework for you.The first one we think is mainly about summarize almost every part we learned in the training , while the second one is most focused on design partterns and refactor based Test Driven Development. It's up to you to pick a perfect homework for yourself. In the meantime , any kind of innovation is welcome, which means whatever new requirements you think is good for the scenario.
+Basically , we planned two versions homework for you.The first one we think is mainly about summarize almost every part we learned in the training , while the second one is most focused on design patterns and refactor based Test Driven Development. It's up to you to pick a perfect homework for yourself. In the meantime , any kind of innovation is welcome, which means whatever new requirements you think is good for the scenario.
 
 Good luck and don't forget to complete this home work before the next class.If you got any questions please ask @Honglai or your corresponding buddy for help .
 
@@ -25,14 +25,14 @@ The webs page design is 100% up to you , and you are welcome to add whatever use
 2. If you want to add a login for our website , it's strongly recommended to use the one called Spring Security , which is quite interesting.
 
 3. It's ok we use some hard coded product catalog (which describes all the products' info), but would be better if we make it possible to use some configuration file like XML, JSON or whatever you think is good.
-4. This project is 60% similiar with the project you gonna join in TWU , the only difference is we don't use any database at this moment, but if you are curious enough, don't hesitate to import the database layer.
+4. This project is 60% similar with the project you gonna join in TWU , the only difference is we don't use any database at this moment, but if you are curious enough, don't hesitate to import the database layer.
 
 
 
 
 
 #2. Richest in the world
-Richest in the world is one PC game I played when I was a student. It's chinese name is called "富甲天下", it's quite similar with the game "大富翁". In this game , there are three kings mr.Liu, mr.Cao and mr.Sun which refers to the very famous book "Three Kindoms".Players can pick up one of them as the role to play.
+Richest in the world is one PC game I played when I was a student. It's Chinese name is called "富甲天下", it's quite similar with the game "大富翁". In this game , there are three kings mr.Liu, mr.Cao and mr.Sun which refers to the very famous book "Three Kindoms".Players can pick up one of them as the role to play.
 ##Requirements guideline
 1. This is a command line game
 2. Player's first step is to choose a role to play, here players have three options : mr.Liu, mr.Cao and mr.Sun
