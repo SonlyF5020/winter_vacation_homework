@@ -38,7 +38,7 @@ Richest in the world is one PC game I played when I was a student. It's chinese 
 2. Player's first step is to choose a role to play, here players have three options : mr.Liu, mr.Cao and mr.Sun
 3. Each king have 5 generals , and each generals have two attributes : attack and intelligence.
 4. The map should be something like this:
-![image](./MAP.png)
+![image](./new_map.png)
 
 The meaning of each letter as below:
 
